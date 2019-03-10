@@ -547,6 +547,7 @@
   ],
   "buffers": [
     {
+      "name": "sceneDraco",
       "byteLength": 2674880,
       "uri": "sceneDraco.bin"
     }
@@ -554,11 +555,11 @@
   "images": [
     {
       "name": "material_0_metallicRoughness",
-      "uri": "https://res.cloudinary.com/dougsillars/image/upload/q_auto/v1552250577/material_0_metallicRoughness_bealw1.png"
+      "uri": "textures/material_0_metallicRoughness.png"
     },
     {
       "name": "material_0_normal",
-      "uri": "https://res.cloudinary.com/dougsillars/image/upload/q_auto/v1552250577/material_0_normal_xuz3e2.jpg"
+      "uri": "textures/material_0_normal.jpeg"
     }
   ],
   "materials": [
