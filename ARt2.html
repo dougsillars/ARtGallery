@@ -1,0 +1,41 @@
+<html>
+<head>
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+<body >
+  <a-scene embedded arjs='sourceType: webcam;'>
+  		<a-assets>
+    			<img id="scream" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1551634938/scream_qbwybi.jpg">
+    			<img id="mona" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1551634946/monalisa_nlcskz.jpg">
+    			<img id="picasso" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1551634942/Mural_del_Gernika_s9ldah.jpg">
+    			
+    			
+  		</a-assets>
+  	
+      <a-marker type='pattern' url='https://dougsillars.github.io/ARPirates/pattern-marker1.patt'>
+         <a-box position='0 0 0' scale="3.5 0.5 5" src ="#mona" ></a-box>
+         <a-box position='4 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
+         <a-box position='8 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
+      </a-marker>
+      
+      
+      <a-marker type='pattern' url='https://dougsillars.github.io/ARPirates/pattern-marker2.patt'>
+                   <a-box position='-4 0 0' scale="3.5 0.5 5" src ="#mona" ></a-box>
+         		   <a-box position='0 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
+         		   <a-box position='4 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
+      </a-marker>
+           
+      <a-marker type='pattern' url='https://dougsillars.github.io/ARPirates/pattern-marker3.patt'>
+                  <a-box position='-8 0 0' scale="3.5 0.5 5" src ="#mona" ></a-box>
+         			<a-box position='-4 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
+         		<a-box position='0 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
+      </a-marker>
+      
+      
+      
+  <a-entity camera>
+  </a-entity>
+  </a-scene>
+</body>
+</html>
