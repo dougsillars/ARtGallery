@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+  
+    <a-scene>
+       <a-assets>
+    		<img id="scream" src="https://res.cloudinary.com/dougsillars/image/upload/w_512/v1551634938/scream_qbwybi.jpg">
+    	    <img id="mona" src="https://res.cloudinary.com/dougsillars/image/upload/w_1024/v1551634946/monalisa_nlcskz.jpg">
+    		<img id="picasso" src="https://res.cloudinary.com/dougsillars/image/upload/w_1024/v1551634942/Mural_del_Gernika_s9ldah.jpg">
+    		<a-asset-item id="david" src="david/sceneDraco.gltf"></a-asset-item>
+       </a-assets>
+    
+    
+      <!-- right wall-->
+      <a-plane position="4 2 0" rotation="0 -90 0"width="8" height="4" color="#7BC8A4"></a-plane>
+      <!-- left wall-->
+      <a-plane position="-4 2 0" rotation="0 90 0"width="8" height="4" color="#7BC8A4"></a-plane> 
+      <!-- front wall-->
+      <a-plane position="0 2 -4" rotation="0 0 0"width="8" height="4" color="#7BC8A4"></a-plane>
+      <!-- back wall-->
+      <a-plane position="0 2 4" rotation="0 180 0"width="8" height="4" color="#7BC8A4"></a-plane>
+      <!-- ceiling -->	
+      <a-plane position="0 4 0" rotation="90 0 0"width="8" height="8" color="blue"></a-plane>
+      <!-- floor -->	
+      <a-plane position="0 0 0" rotation="-90 0 0"width="8" height="8" color="gray"></a-plane>		
+      <!--> adding a box with art-->	
+      <a-box position="0 2 -4" scale="2 2 0.1" rotation="0 0 0" src="#scream"></a-box>
+      <a-box position="4 2 0" scale="2 2 0.1" rotation="0 -90 0" src="#mona"></a-box>
+      <a-box position="-4 2 0" scale="4 2 0.1" rotation="0 90 0" src="#picasso"></a-box>
+      <a-entity position="0 1.5 3"scale="1 1 1" rotation="0 180 0" gltf-model="#david"></a-entity> 
+      
+      
+      
+      
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
