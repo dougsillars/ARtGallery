@@ -6,33 +6,32 @@
 <body >
   <a-scene embedded arjs='sourceType: webcam;'>
   		<a-assets>
-    			<img id="scream" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1551634938/scream_qbwybi.jpg">
-    			<img id="mona" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1551634946/monalisa_nlcskz.jpg">
-    			<img id="picasso" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1551634942/Mural_del_Gernika_s9ldah.jpg">
-    			
+    			<img id="b1" src="https://res.cloudinary.com/dougsillars/image/upload/v1552505052/The_Beatles_-_Beatles_For_Sale_yxgfva.jpg">
+    			<img id="b2" src="https://res.cloudinary.com/dougsillars/image/upload/v1552505052/The_Beatles_-_Sgt._Peper_s_Lonely_Hearts_Club_Band_u8utgf.jpg">
+    			<img id="b3" src="https://res.cloudinary.com/dougsillars/image/upload/v1552505052/The_Beatles_-_Abbey_Road_y2fe8s.jpg">
+    			<a-asset-item id="b4" src="https://res.cloudinary.com/dougsillars/image/upload/v1552505052/The_Beatles_-_Yellow_Submarine_v8lgiy.jpg"></a-asset-item>
+ 			
     			
   		</a-assets>
   	
-      <a-marker type='pattern' url='https://dougsillars.github.io/ARPirates/pattern-marker1.patt'>
+      <a-marker type='pattern' 
+      		url='https://dougsillars.github.io/ArtGallery/ARMarker/pattern-marker1.patt'>
          <a-box position='0 0 0' scale="3.5 0.5 5" src ="#mona" ></a-box>
-         <a-box position='4 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
-         <a-box position='8 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
       </a-marker>
       
       
-      <a-marker type='pattern' url='https://dougsillars.github.io/ARPirates/pattern-marker2.patt'>
-                   <a-box position='-4 0 0' scale="3.5 0.5 5" src ="#mona" ></a-box>
-         		   <a-box position='0 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
-         		   <a-box position='4 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
-      </a-marker>
-           
-      <a-marker type='pattern' url='https://dougsillars.github.io/ARPirates/pattern-marker3.patt'>
-                  <a-box position='-8 0 0' scale="3.5 0.5 5" src ="#mona" ></a-box>
-         			<a-box position='-4 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
-         		<a-box position='0 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
+      <a-marker type='pattern' url='https://dougsillars.github.io/ArtGallery/ARMarker/pattern-marker2.patt'>
+         <a-box position='0 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
       </a-marker>
       
+      <a-marker type='pattern' url='https://dougsillars.github.io/ArtGallery/ARMarker/pattern-marker3.patt'>
+         <a-box position='0 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
+      </a-marker>
       
+            
+      <a-marker type='pattern' url='https://dougsillars.github.io/ArtGallery/ARMarker/pattern-marker4.patt'>
+         <a-entity position='0 0 0'  gltf-model ="#david" ></a-entity>
+      </a-marker>
       
   <a-entity camera>
   </a-entity>
