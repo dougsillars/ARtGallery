@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+<body >
+  <a-scene embedded arjs='sourceType: webcam;'>
+  		<a-assets>
+    			<a-asset-item id="sofa" src="clean_sofa/scene.gltf"></a-asset-item>
+
+  		</a-assets>
+  	        
+      <a-marker type='pattern' url='https://dougsillars.github.io/ArtGallery/ARMarker/pattern-marker4.patt'>
+         <a-entity position='0 0 0'  gltf-model ="#sofa" ></a-entity>
+      </a-marker>
+      
+  <a-entity camera>
+  </a-entity>
+  </a-scene>
+</body>
+</html>
