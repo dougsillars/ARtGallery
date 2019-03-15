@@ -175,7 +175,7 @@ class App {
      var mona = new THREE.Mesh(geometry, materialArray1);
      mona.scale.set( 1, 1, 0.01 );
      mona.position.set(1, 0, 0);
-     this.model = scream;
+     this.model = mona;
     //this.model = new THREE.Mesh(scream, materialArray1);
     //this.model.add(new THREE.Mesh(monalisa, materialArray2));
 
