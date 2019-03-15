@@ -56,7 +56,7 @@ class Reticle extends THREE.Object3D {
 
     // Load the anchor texture and apply it to our material
     // once loaded
-    this.loader.load('../assets/Anchor.png', texture => {
+    this.loader.load('https://res.cloudinary.com/dougsillars/image/upload/q_auto,w_256/c_crop,w_256,h_256/v1552682248/Anchor_rzjbco.png', texture => {
       this.icon.material.opacity = 1;
       this.icon.material.map = texture;
     });

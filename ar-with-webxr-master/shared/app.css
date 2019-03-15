@@ -90,7 +90,7 @@ body.ar #info {
 }
 
 #stabilization {
-  background-image: url(../assets/stabilization.gif);
+  background-image: url("https://res.cloudinary.com/dougsillars/image/upload/v1552682248/stabilization_yegbkb.gif");
   background-size: contain;
   background-repeat: no-repeat;
   width: 400px;
