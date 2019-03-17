@@ -38,6 +38,9 @@ class Reticle extends THREE.Object3D {
     let geometry = new THREE.RingGeometry(0.1, 0.11, 24, 1);
     let material = new THREE.MeshBasicMaterial({ color: 0xffffff });
     // Orient the geometry so its position is flat on a horizontal surface
+    
+    //0 is a vertical surface (walls)
+    //180 is horizontal (floors)
     geometry.applyMatrix(new THREE.Matrix4().makeRotationX(THREE.Math.degToRad(0)));
 
     this.ring = new THREE.Mesh(geometry, material);
