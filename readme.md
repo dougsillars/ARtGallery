@@ -1,8 +1,9 @@
 building an AR ARt Gallery using A-Frame and WebXR 
 
 
-This repository follows the steps to build an A-Frame AR Art Gallery.  It is expended into WebXR using https://github.com/dougsillars/ar-with-webxr
+This repository follows the steps to build an A-Frame AR Art Gallery.  
 
+A-Frame is syntatic like HTML to build VR/AR experiences on the web.  Documentation, etc. at https://aframe.io
 
 1. We begin with the A-Frame Hellow World (aframeHW.html) as an introduction to A-Frame.
 
@@ -16,3 +17,4 @@ This repository follows the steps to build an A-Frame AR Art Gallery.  It is exp
 
 6. ARt.html uses 4 patters that can be hug on the real wall for AR.js to add AR art over the top.
 
+I have extended this demo into WebXR using https://github.com/dougsillars/ar-with-webxr.  This requires Android 8.0 or higher, Chrome Canary 70, so is mostly for demo purposes, but feel free to try it out.
