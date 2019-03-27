@@ -8,7 +8,7 @@ This repository follows the steps to build an A-Frame AR Art Gallery.  It is exp
 
 2. Next, We build a 4m x4m room with 4 walls and a ceiling (aframeroom.html) as the beginning of a VR art gallery.  But there is no art!
 
-3.  aframeroomart.html adds one peince of art, but the room feels really empty
+3.  aframeroomart.html adds one piece of art, but the room feels really empty.
 
 4.  aframeroomart2.html adds more art to 3 walls (and close to realistic size), and adds a 3D model of David behind the viewer.
 
