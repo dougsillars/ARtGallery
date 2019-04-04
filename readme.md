@@ -15,6 +15,6 @@ A-Frame is syntatic like HTML to build VR/AR experiences on the web.  Documentat
 
 5. But this is all VR.  Can we do AR with A-Frame?  Yes,  hiro.html is an intro.
 
-6. ARt.html uses 4 patters that can be hug on the real wall for AR.js to add AR art over the top.
+6. [ARt.html](ARt.html) uses 4 patters that can be hug on the real wall for AR.js to add AR art over the top.
 
 I have extended this demo into WebXR using https://github.com/dougsillars/ar-with-webxr.  This requires Android 8.0 or higher, Chrome Canary 70, so is mostly for demo purposes, but feel free to try it out.
