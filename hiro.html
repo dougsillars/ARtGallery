@@ -9,10 +9,14 @@
     
   		<a-assets>
     			<img id="mona" loading="eager" crossorigin="anonymous" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1551634946/monalisa_nlcskz.jpg">
+				 <img id="scream" loading="eager" crossorigin="anonymous" src="https://res.cloudinary.com/dougsillars/image/upload/w_512/v1551634938/scream_qbwybi.jpg">
   		</a-assets>
   	
       <a-marker preset='hiro'>
          <a-box position='0 0 0' scale="2 2 2" src ="#mona" ></a-box>
+      </a-marker>
+      <a-marker type='pattern' url='https://dougsillars.github.io/ARtGallery/ARMarker/QRcode.patt'>
+         <a-box position='0 0 0' scale="5 0.5 6" src ="#scream" ></a-box>
       </a-marker>
     <!-- define a camera which will move according to the marker position -->
      <a-entity camera>
